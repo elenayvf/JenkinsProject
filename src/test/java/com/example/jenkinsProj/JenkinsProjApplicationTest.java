@@ -9,11 +9,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 /** * Created by  * Sample junit test code to integrate by */
 public class JenkinsProjApplicationTest{    
-	String message = "Hello World";	
+	boolean message = true;	
    
 	@Test
 	public void testPrintMessage() {
-	   assertEquals(message, "Hello World");
+	   Assert.assertTrue(message);
 	}
 
 
