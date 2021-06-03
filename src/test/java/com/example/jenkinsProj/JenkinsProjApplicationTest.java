@@ -10,10 +10,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 /** * Created by  * Sample junit test code to integrate by */
 public class JenkinsProjApplicationTest{    
 	String message = "Hello World";	
-   MessageUtil messageUtil = new MessageUtil(message);
+   
 	@Test
 	public void testPrintMessage() {
-	   assertEquals(message,messageUtil.printMessage());
+	   assertEquals(message, "Hello World");
 	}
 
 
